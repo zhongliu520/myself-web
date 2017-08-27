@@ -5,12 +5,12 @@
             <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
             <title>约吗？</title>
     </head>
-    <link rel="stylesheet" href="/activity/css/index.css" />
+    <link rel="stylesheet" href="/activitys/css/index.css" />
     <body>
     	<div class="all">
 	    	<div class="picture">
 	    		<div class="picture-li">
-	    			<img src="/activity/image/IMG_0202.JPG" />
+	    			<img src="/activitys/image/IMG_0202.JPG" />
 	    		</div>
 	    	</div>
 	    	<div class="but-yue">
