@@ -1,0 +1,61 @@
+html,body{margin: 0;padding: 0;}
+
+.all{
+	width: 95%;
+	margin: 0 auto;
+}
+.picture{
+	width: 100%;
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+.picture-li{position: absolute;top: -85px;}
+.picture div,img{ width: 100%;}
+.but-yue{width: 100%;margin: 0 auto;}
+
+.but-yue button{
+	width: 40%;
+	color: #fff;
+	background-color: #f900ff;
+	border: 1px solid ##9200ffcc;
+	height: 30px;
+	font-weight: bold;
+	animation: myfirst 5s;
+	-moz-animation: myfirst 5s;	/* Firefox */
+	-webkit-animation: myfirst 5s;	/* Safari 和 Chrome */
+	-o-animation: myfirst 5s;	/* Opera */
+}
+
+.but-no-yue button{
+	width: 40%;
+	color: #fff;
+	background-color: #f900ff;
+	border: 1px solid ##9200ffcc;
+	height: 30px;
+	font-weight: bold;
+}
+
+@keyframes myfirst
+{
+	from {background: red;}
+	to {background: #f900ff;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+	from {background: red;}
+	to {background: #f900ff;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+	from {background: red;}
+	to {background: #f900ff;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+	from {background: red;}
+	to {background: #f900ff;}
+}
