@@ -81,8 +81,8 @@ html,body{margin: 0;padding: 0;}
 @keyframes myfirst
 {
 0%   {background:red; left:0px; top:0px;}
-25%  {background:yellow; left:300px; top:0px;}
-50%  {background:blue; left:300px; top:500px;}
+25%  {background:yellow; left:calc(100% - 0px); top:0px;}
+50%  {background:blue; left:calc(100% - 0px); top:500px;}
 75%  {background:green; left:0px; top:500px;}
 100% {background:red; left:0px; top:0px;}
 }
@@ -90,8 +90,8 @@ html,body{margin: 0;padding: 0;}
 @-moz-keyframes myfirst /* Firefox */
 {
 0%   {background:red; left:0px; top:0px;}
-25%  {background:yellow; left:300px; top:0px;}
-50%  {background:blue; left:300px; top:500px;}
+25%  {background:yellow; left:calc(100% - 0px); top:0px;}
+50%  {background:blue; left:calc(100% - 0px); top:500px;}
 75%  {background:green; left:0px; top:500px;}
 100% {background:red; left:0px; top:0px;}
 }
@@ -99,8 +99,8 @@ html,body{margin: 0;padding: 0;}
 @-webkit-keyframes myfirst /* Safari and Chrome */
 {
 0%   {background:red; left:0px; top:0px;}
-25%  {background:yellow; left:300px; top:0px;}
-50%  {background:blue; left:300px; top:500px;}
+25%  {background:yellow; left:calc(100% - 0px); top:0px;}
+50%  {background:blue; left:calc(100% - 0px); top:500px;}
 75%  {background:green; left:0px; top:500px;}
 100% {background:red; left:0px; top:0px;}
 }
@@ -108,8 +108,8 @@ html,body{margin: 0;padding: 0;}
 @-o-keyframes myfirst /* Opera */
 {
 0%   {background:red; left:0px; top:0px;}
-25%  {background:yellow; left:300px; top:0px;}
-50%  {background:blue; left:300px; top:500px;}
+25%  {background:yellow; left:calc(100% - 0px); top:0px;}
+50%  {background:blue; left:calc(100% - 0px); top:500px;}
 75%  {background:green; left:0px; top:500px;}
 100% {background:red; left:0px; top:0px;}
 }

@@ -6,6 +6,7 @@
             <title>约吗？</title>
     </head>
     <link rel="stylesheet" href="/activitys/css/index.css" />
+    <script type='text/javascript' src="/js/jquery-1.8.3.min.js" charset='utf-8'></script>
     <body>
     	<div class="all">
 	    	<div class="picture">
@@ -21,4 +22,5 @@
 	    	</div>
     	</div>
     </body>
+
 </html>
