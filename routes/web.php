@@ -34,10 +34,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::any('login', 'API\UserController@login'); 
-Route::any('register', 'API\UserController@register'); 
+Route::any('login', 'Api\UserController@login'); 
+Route::any('register', 'Api\UserController@register'); 
 //dd(request()->header());
 Route::group(['middleware' => 'auth:api'], function(){ 
-    Route::post('details', 'API\UserController@details'); 
+    Route::post('details', 'Api\UserController@details'); 
 });
 
