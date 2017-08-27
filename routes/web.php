@@ -11,6 +11,11 @@
 |
 */
 
+Route::group(["prefix" => "activity", "namespace"=>"Activity"], function(){ 
+    Route::get('/', 'HomeController@index'); 
+});
+
+
 Route::get('/', function () {
     return view('welcome');
 });
