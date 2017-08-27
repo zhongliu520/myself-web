@@ -21,20 +21,17 @@ html,body{margin: 0;padding: 0;}
 	border: 1px solid ##9200ffcc;
 	height: 30px;
 	font-weight: bold;
+	
 	animation: myfirst 5s;
 	-moz-animation: myfirst 5s;	/* Firefox */
 	-webkit-animation: myfirst 5s;	/* Safari 和 Chrome */
 	-o-animation: myfirst 5s;	/* Opera */
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
-.but-no-yue button{
-	width: 40%;
-	color: #fff;
-	background-color: #f900ff;
-	border: 1px solid ##9200ffcc;
-	height: 30px;
-	font-weight: bold;
-}
+
 
 @keyframes myfirst
 {
@@ -58,4 +55,61 @@ html,body{margin: 0;padding: 0;}
 {
 	from {background: red;}
 	to {background: #f900ff;}
+}
+
+
+.but-no-yue button{
+	width: 40%;
+	color: #fff;
+	background-color: #f900ff;
+	border: 1px solid ##9200ffcc;
+	height: 30px;
+	font-weight: bold;
+	
+	position:fixed;
+
+	top:0px;	
+	animation:myfirst 5s linear 2s infinite alternate;
+	/* Firefox: */
+	-moz-animation:myfirst 5s linear 2s infinite alternate;
+	/* Safari and Chrome: */
+	-webkit-animation:myfirst 5s linear 2s infinite alternate;
+	/* Opera: */
+	-o-animation:myfirst 5s linear 2s infinite alternate;
+}
+
+@keyframes myfirst
+{
+0%   {background:red; left:0px; top:0px;}
+25%  {background:yellow; left:300px; top:0px;}
+50%  {background:blue; left:300px; top:500px;}
+75%  {background:green; left:0px; top:500px;}
+100% {background:red; left:0px; top:0px;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {background:red; left:0px; top:0px;}
+25%  {background:yellow; left:300px; top:0px;}
+50%  {background:blue; left:300px; top:500px;}
+75%  {background:green; left:0px; top:500px;}
+100% {background:red; left:0px; top:0px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {background:red; left:0px; top:0px;}
+25%  {background:yellow; left:300px; top:0px;}
+50%  {background:blue; left:300px; top:500px;}
+75%  {background:green; left:0px; top:500px;}
+100% {background:red; left:0px; top:0px;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {background:red; left:0px; top:0px;}
+25%  {background:yellow; left:300px; top:0px;}
+50%  {background:blue; left:300px; top:500px;}
+75%  {background:green; left:0px; top:500px;}
+100% {background:red; left:0px; top:0px;}
 }
